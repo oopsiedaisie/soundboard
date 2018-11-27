@@ -1,0 +1,83 @@
+html {
+  font-size: 10px;
+//background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://steamuserimages-a.akamaihd.net/ugc/873000516825480253/C5C95FB0A898646437F361003E6E61B5CA099358/) bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+@font-face {
+    font-family: "Gloss and Bloom";
+    src: url("./fonts/Gloss_And_Bloom.ttf");
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 77vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid white;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #00000049;
+  box-shadow: 0 0 2.5rem #ff00b3;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+
+.welcome {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: Gloss and Bloom, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.instructions {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -50px;
+    transition: all 0.3s ease;
+}
+html, body {margin: 0; height: 100%; overflow: hidden} //hides & disables scrolling
